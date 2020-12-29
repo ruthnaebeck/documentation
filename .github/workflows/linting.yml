@@ -15,9 +15,6 @@ jobs:
         styles: /styles
 
         # Optional
-        config: .vale.ini
-
-        # Optional
         files: content/en/
       env:
         # Required
