@@ -12,12 +12,6 @@ jobs:
       uses: errata-ai/vale-action@v1.3.0
       with:
         # Optional
-        styles: /styles
-
-        # Optional
-        config: .vale.ini
-
-        # Optional
         files: content/en/
       env:
         # Required
