@@ -14,6 +14,8 @@ jobs:
         # Optional
         styles: ../styles
 
+        # Optional
+        files: content/en/
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
