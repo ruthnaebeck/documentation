@@ -1,22 +1,19 @@
 extends: capitalization
 message: "'%s' should use sentence-style capitalization."
 link: 'https://github.com/DataDog/documentation/blob/master/CONTRIBUTING.md#headers'
-level: warning
+level: error
 scope: heading
 match: $sentence
 exceptions:
   - Agent
   - Azure
   - CLI
-  - Code
-  - Cosmos
+  - Datadog
   - Docker
-  - Emmet
   - I
   - Kubernetes
   - Linux
   - macOS
-  - MongoDB
   - REPL
   - TypeScript
   - URLs
