@@ -9,14 +9,13 @@ jobs:
       uses: actions/checkout@master
 
     - name: Vale
-      uses: errata-ai/vale-action@v1.3.0
+      uses: errata-ai/vale-action@master
       with:
         # Optional
         styles: ../styles
 
         # Optional
         files: __onlyModified
-        onlyAnnotateModifiedLines: true
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
