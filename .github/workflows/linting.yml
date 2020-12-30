@@ -12,10 +12,11 @@ jobs:
       uses: errata-ai/vale-action@v1.3.0
       with:
         # Optional
-        styles: /styles
+        styles: ../styles
 
         # Optional
-        files: content/en/
+        files: __onlyModified
+        onlyAnnotateModifiedLines: true
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
