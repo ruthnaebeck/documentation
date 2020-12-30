@@ -15,7 +15,7 @@ jobs:
         styles: ../styles
 
         # Optional
-        files: content/en/
+        files: __onlyModified
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
